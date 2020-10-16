@@ -9,6 +9,7 @@ const refuseButton = document.getElementById('refuseAssignmentButton');
 const runAwayButton = document.getElementById('runAwayButton');
 const beginAgainButton = document.getElementById('beginAgainButton');
 const restartGameButton = document.getElementById('restartGameButton');
+const collectPageThreeButton = document.getElementById('collectPageThreeButton');
 
 const mushroomRadio = document.querySelector('mushroom');
 const gnomeRadio = document.querySelector('gnome');
@@ -49,9 +50,9 @@ collectButton.addEventListener('click', () => {
 });
 ///have access to mushroom state. put in same file as mushroom, and import things in red
 mushroomRadio.addEventListener('click', () => {
-    if (mushrooms += 1) {
+    if (mushroom += 1) {
         setInLocalStorage(CART, resultsArray);
-        location.href = './completion-page/completion.html';
+        
     }
 });
 gnomeRadio.addEventListener('click', () => {
