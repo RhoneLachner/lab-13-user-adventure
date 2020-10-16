@@ -1,12 +1,13 @@
-// quests[0].choices[0].description; ==> 'negotiate with them'
+//DO I EXPORT THIS PAGE AS A FUNCTION???
 
 
-const welcomePage = {
+
+const welcomePage = { //export all these variables to pages where they're used
     id: 'instructions',
     title: 'Welcome!',
     image: 'forest.jpg',
     description: `
-       'The Faerie Queen needs 10 mushrooms to build her castle. You have been chosen
+       'The Faerie Queen needs 3 mushrooms to build her castle. You have been chosen
        as the village Mushroom Hunter. To begin your quest please type your name below 
        and enter the enchanted forest.'
     `,
@@ -41,9 +42,11 @@ const instructions = {
     }], 
 };
 const forestPage = {
-        //MUSHROOM BUTTONS HERE,
+        //radio MUSHROOM BUTTONS HERE,
         //IF GNOME, GO TO GNOME PAGE
         //IF MUSHROOM, PRESS "COLLECT SELECTED MUSHROOMS AND MOVE FOREWARD."
+        // ~~~REPEAT TASKS IN FOREST PAGE UNTIL MUSHROOMS=10 OR GNOME
+        // IS SELECTED. WHEN MUSHROOMS=3 LINK TO COMPLETION PAGE~~~ 
 };
 
 const gnomePage = {
