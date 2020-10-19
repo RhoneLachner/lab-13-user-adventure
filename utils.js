@@ -1,5 +1,5 @@
 
-import { pokemonData } from './data.js';
+import { mushroomData } from './data.js';
 import { CART } from './constants.js';
 
 
@@ -14,10 +14,10 @@ export function getLocalStorage() {
     // if they've never been to the site
     if (!localStorageResults) {
         // go grab the hard coded localStorageResults, and SEED local storage with them
-        const stringyCart = JSON.stringify(pokemonData);
+        const stringyCart = JSON.stringify(mushroomData);
 
         localStorage.setItem(CART, stringyCart);
-        localStorageResults = pokemonData;
+        localStorageResults = mushroomData;
     }
 
     return localStorageResults;

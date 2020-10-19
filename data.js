@@ -1,21 +1,35 @@
 // RADIO BUTTONS HERE?????
 export const mushroomData = [
     {
-        id: 'pink mushroom',
-        image:'http://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png',
+        id: 'pinkMushroom',
+        image: './assets/pink-mushroom copy.png'
     },
     {
-        id:'blue mushroom',
-        image:'http://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png',
+        id:'blueMushroom',
+        image: './assets/blue-mushroom.png',
     },
     {   
-        id:'purple mushroom',
-        image:'http://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png',
+        id:'purpleMushroom',
+        image: './assets/purple-mushroom.png',
     },
-];
-export const gnomeData = [
+    {
+        id: 'pinkMushroom2',
+        image: './assets/pink-mushroom copy.png'
+    },
+    {
+        id:'blueMushroom2',
+        image: './assets/blue-mushroom.png',
+    },
+    {   
+        id:'purpleMushroom2',
+        image: './assets/purple-mushroom.png',
+    },
     {
         id: 'gnome',
-        image:'http://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png',
+        image:'./assets/red-mushroom.png',
     },
+    {
+        id: 'gnome2',
+        image: './assets/red-mushroom.png',
+    }
 ];

@@ -66,6 +66,9 @@ footer {
     box-shadow: var(--shadow);
 }
 
+h1 {
+    font-size: large;
+}
 
 h2 {
     font-size: 1.8rem;
