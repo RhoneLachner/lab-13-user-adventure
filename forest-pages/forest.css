@@ -29,6 +29,19 @@ body {
     
     font-family: 'Titillium Web', sans-serif;
     background-color: var(--color2);
+
+
+    background-image: url('../assets/forest-entrance.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+h1{
+background-color: #ffffff8f;
+}
+h2 {
+background-color: #ffffff6b;
 }
 
 .mushroomLink {

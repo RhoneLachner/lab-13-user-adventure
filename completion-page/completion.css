@@ -1,3 +1,6 @@
+/* ADD GLOW EFFECT TO MUSHROOMS ON CLICK!
+*/
+
 
 body {
     --color1: #ffffff;
@@ -26,4 +29,31 @@ body {
     
     font-family: 'Titillium Web', sans-serif;
     background-color: var(--color2);
+
+
+    background-image: url('../assets/castle.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+h1{
+background-color: #ffffff8f;
+}
+h2 {
+background-color: #ffffff6b;
+}
+
+.mushroomLink {
+    width: 100px;
+    height: 100px;
+}
+
+button {
+    height: 100px;
+    width: 100px;
+}
+a {
+    width: 100px;
+
 }
