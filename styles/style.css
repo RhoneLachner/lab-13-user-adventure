@@ -26,6 +26,11 @@ body {
     
     font-family: 'Titillium Web', sans-serif;
     background-color: var(--color2);
+
+    background-image: url('../assets/fae-village.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 main {
@@ -73,6 +78,7 @@ h1 {
 h2 {
     font-size: 1.8rem;
     font-weight: bold;
+    background-color: #ffffff81;
 }
 
 .gutter-right {
